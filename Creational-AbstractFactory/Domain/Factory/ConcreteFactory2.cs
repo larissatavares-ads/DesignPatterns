@@ -1,17 +1,17 @@
 ﻿using Creational_AbstractFactory.Interfaces;
 
-namespace Creational_AbstractFactory.Domain
+namespace Creational_AbstractFactory.Domain.Factory
 {
-    class ConcreteFactory1 : IAbstractFactory
+    class ConcreteFactory2 : IAbstractFactory
     {
         public IAbstractProductA CreateProductA()
         {
-            throw new NotImplementedException();
+            return new ConcreteProductA2();
         }
 
         public IAbstractProductB CreateProductB()
         {
-            throw new NotImplementedException();
+            return new ConcreteProductB2();
         }
     }
 }
