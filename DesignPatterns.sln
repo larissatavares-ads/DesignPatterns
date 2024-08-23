@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Creational-FactoryMethod", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Creational-AbstractFactory", "Creational-AbstractFactory\Creational-AbstractFactory.csproj", "{CA3BDF7D-D8CE-4B64-86BE-202D8DD27BF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational-Builder", "Creational-Builder\Creational-Builder.csproj", "{3B5B8D61-E972-4331-AD81-9786C1C208DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Creational-Builder", "Creational-Builder\Creational-Builder.csproj", "{3B5B8D61-E972-4331-AD81-9786C1C208DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational-Prototype", "Creational-Prototype\Creational-Prototype.csproj", "{93DE6BA7-0B84-4121-A986-783E98297E17}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{3B5B8D61-E972-4331-AD81-9786C1C208DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B5B8D61-E972-4331-AD81-9786C1C208DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B5B8D61-E972-4331-AD81-9786C1C208DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93DE6BA7-0B84-4121-A986-783E98297E17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93DE6BA7-0B84-4121-A986-783E98297E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93DE6BA7-0B84-4121-A986-783E98297E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93DE6BA7-0B84-4121-A986-783E98297E17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
